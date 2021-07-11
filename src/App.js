@@ -1,31 +1,27 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 /*import './style/App.css';*/
 
 import CustomNavbar from './components/CustomNavbar';
 
-import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Skills from './pages/Skills';
-import Contact from './pages/Contact';
-import NoMatch from './pages/NoMatch';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Skills from './sections/Skills';
+import Contact from './sections/Contact';
+import Footer from './sections/Footer';
+
 
 export class App extends Component {
   render() {
     return (
       <>
-        <Router>
+        <main>
           <CustomNavbar />
-          <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/about' component={About} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/skills' component={Skills} />
-            <Route path='/contact' component={Contact} />
-            <Route component={NoMatch} />
-          </Switch>
-        </Router>
+          <About />
+          <Projects />
+          <Skills />
+          <Contact />
+          <Footer />
+        </main>
       </>
     )
   }

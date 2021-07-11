@@ -1,7 +1,5 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
-import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
@@ -27,10 +25,6 @@ const About = () => {
                     <Image src={jumbotronPic} fluid className="header-pic mx-auto my-auto p-5 d-block" />
                 </Jumbotron>
             </Container>
-            <Breadcrumb className="breadcrum__container">
-                <Breadcrumb.Item href="/" className="breadcrumb-item">Home</Breadcrumb.Item>
-                <Breadcrumb.Item href="/about" className="breadcrumb-item">About</Breadcrumb.Item>
-            </Breadcrumb>
         </>
     );
 };

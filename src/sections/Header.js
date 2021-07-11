@@ -1,6 +1,5 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
-import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,7 +9,7 @@ import Button from 'react-bootstrap/Button';
 import profilePic from '../images/TLPProfile.JPG';
 import '../style/App.css';
 
-const Home = () => {
+const Header = () => {
     return (
         <>
             <Jumbotron fluid>
@@ -41,12 +40,8 @@ const Home = () => {
                     </Row>
                 </Container>
             </Jumbotron>
-
-            <Breadcrumb className="breadcrumb__container">
-                <Breadcrumb.Item href='/' className="breadcrumb-item">Home</Breadcrumb.Item>
-            </Breadcrumb>
         </>
     )
 }
 
-export default Home
+export default Header
