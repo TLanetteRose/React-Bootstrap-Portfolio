@@ -52,8 +52,10 @@ h3 {
   width: 5rem;
   height: 5rem;
 }
-
-.bg-dark {
+.profile-name {
+  color: #331b3f !important;
+}
+.bg-light {
   background-color: #acc7b4 !important;
 }
 
