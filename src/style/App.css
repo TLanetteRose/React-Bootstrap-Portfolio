@@ -76,11 +76,6 @@ h3 {
   margin: 6rem 2rem;
 }
 
-.card {
-  max-width: 50rem;
-  border-radius: 1.5rem;
-}
-
 .jumbotron-card {
  
 }
@@ -98,6 +93,10 @@ h3 {
   color: #acc7b4 !important;
 }
 
+.jumbotron-button {
+  height: 4rem;
+}
+
 .btn-light {
   background-color: #acc7b4 !important;
   border-radius: .25rem;
@@ -106,7 +105,7 @@ h3 {
 }
 
 .profile-pic {
-  width: 40%;
+  width: 60%;
   height: auto;
 }
 
