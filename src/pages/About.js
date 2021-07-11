@@ -32,8 +32,8 @@ const About = () => {
                 <Breadcrumb.Item href="/about" className="breadcrumb-item">About</Breadcrumb.Item>
             </Breadcrumb>
         </>
-    )
-}
+    );
+};
 
 
 export default About

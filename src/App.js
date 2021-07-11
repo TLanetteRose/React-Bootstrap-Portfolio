@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route  } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 /*import './style/App.css';*/
 
 import CustomNavbar from './components/CustomNavbar';
@@ -19,10 +19,10 @@ export class App extends Component {
           <CustomNavbar />
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
-            <Route exact path='/projects' component={Projects} />
-            <Route exact path='/skills' component={Skills} />
-            <Route exact path='/contact' component={Contact} />
+            <Route path='/about' component={About} />
+            <Route path='/projects' component={Projects} />
+            <Route path='/skills' component={Skills} />
+            <Route path='/contact' component={Contact} />
             <Route component={NoMatch} />
           </Switch>
         </Router>
