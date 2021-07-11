@@ -11,7 +11,7 @@ const About = () => {
     return (
         <>
             <Container fluid className="container">
-                <Jumbotron fluid>
+                <Jumbotron fluid className="mt-5">
                     <Row>
                         <Col className="about-info col-12 col-md-6">
                             <h2>Who am I?</h2>
