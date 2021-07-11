@@ -95,6 +95,12 @@ h3 {
 
 .jumbotron-button {
   height: 4rem;
+  width: 15rem;
+}
+
+.jumbotron-button a {
+  font-size: 1.4rem;
+  color: #331b3f !important;
 }
 
 .btn-light {
@@ -107,6 +113,7 @@ h3 {
 .profile-pic {
   width: 60%;
   height: auto;
+  
 }
 
 .header-pic {
@@ -114,6 +121,7 @@ h3 {
   
 }
 
+/* Projects */
 
 
 

@@ -23,7 +23,7 @@ const About = () => {
                                 <Col m-auto justify-content-center>
                                 <Image src={profilePic} m-auto className=" profile-pic" />
                                 </Col>
-                                <Col className="d-grid gap-2 align-items-center">
+                                <Col className="d-grid gap-2 align-items-center justify-content-center">
                                 <Button variant="light" size="lg" className="jumbotron-button"><a href="#contact">Work with Me</a></Button>
                                 <Button variant="light" size="lg" className="jumbotron-button"><a href="#projects">See My Past Work</a></Button>
                                 </Col>
