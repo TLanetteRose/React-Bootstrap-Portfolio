@@ -13,13 +13,13 @@ const About = () => {
             <Container fluid className="container">
                 <Jumbotron fluid className="mt-5">
                     <Row>
-                        <Col className="about-info col-12 col-md-6">
-                            <h2>Who am I?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero tellus, lacinia et ornare sit amet, tincidunt vitae arcu. Vivamus fermentum consequat mi consectetur dapibus. Donec nec ante fermentum, congue mauris porta, molestie lectus. Quisque nec interdum ex. Integer facilisis elit ante, ut consequat mi elementum non. Duis mattis malesuada lorem, vitae auctor lectus hendrerit sed. </p>
+                        <Col className="about-info col-12 col-md-6 p-5">
+                            <h1 className="jumbotron-heading">Who am I?</h1>
+                            <p className="jumbotron-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero tellus, lacinia et ornare sit amet, tincidunt vitae arcu. Vivamus fermentum consequat mi consectetur dapibus. Donec nec ante fermentum, congue mauris porta, molestie lectus. Quisque nec interdum ex. Integer facilisis elit ante, ut consequat mi elementum non. Duis mattis malesuada lorem, vitae auctor lectus hendrerit sed. </p>
                         </Col>
                    
                         <Col>
-                            <Image src={jumbotronPic} fluid className="header-pic mx-auto my-auto p-2 d-block col-12 col-md-6" />
+                            <Image src={jumbotronPic} fluid className="header-pic mx-auto my-auto p-5 d-block col-12 col-md-6" />
                         </Col>
                      </Row>
                 </Jumbotron>

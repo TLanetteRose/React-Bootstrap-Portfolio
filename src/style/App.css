@@ -62,6 +62,7 @@ h3 {
 .nav-link {
   color: #331b3f !important;
   font-size: 1.8rem;
+  font-weight: 700;
 }
 
 
@@ -85,7 +86,7 @@ h3 {
 }
 
 .jumbotron-heading {
-  color: #331b3f !important;
+  color: #acc7b4 !important;
 }
 
 .jumbotron-subtitle {
@@ -94,7 +95,7 @@ h3 {
 
 .jumbotron-text {
   font-size: 1.6rem;
-  color: #331b3f !important;
+  color: #acc7b4 !important;
 }
 
 .btn-light {
@@ -109,10 +110,10 @@ h3 {
   height: auto;
 }
 
-/*.header-pic {
-  width: 80%;
+.header-pic {
+  width: 90%;
   
-}*/
+}
 
 
 
