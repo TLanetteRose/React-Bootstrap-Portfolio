@@ -34,6 +34,8 @@ h3 {
   margin-top: 1rem;
   margin-bottom: 1rem; 
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .breadcrumb__container {
@@ -52,14 +54,17 @@ h3 {
   width: 5rem;
   height: 5rem;
 }
-
-.bg-dark {
+.profile-name {
+  color: #331b3f !important;
+}
+.bg-light {
   background-color: #acc7b4 !important;
 }
 
 .nav-link {
   color: #331b3f !important;
   font-size: 1.8rem;
+  font-weight: 700;
 }
 
 
@@ -73,14 +78,6 @@ h3 {
   margin: 6rem 2rem;
 }
 
-.card {
-  max-width: 50rem;
-  border-radius: 1.5rem;
-}
-
-.jumbotron-card {
- 
-}
 
 .jumbotron-heading {
   color: #acc7b4 !important;
@@ -103,6 +100,7 @@ h3 {
 .jumbotron-button a {
   font-size: 1.4rem;
   color: #331b3f !important;
+
 }
 
 .btn-light {
@@ -113,9 +111,11 @@ h3 {
 }
 
 .profile-pic {
-  width: 40%;
+  width: 60%;
   height: auto;
+  
 }
+
 
 .profile-name {
   color: #331b3f !important;
@@ -140,18 +140,19 @@ h3 {
   height: auto;
 }
 
+
 .code-icon {
   width: 5%;
 }
-
-
 /* Skills */
 
 
 /* Contact */
 
 
-/* Footer */
+/* Footer */ 
+
+
 
 
 
