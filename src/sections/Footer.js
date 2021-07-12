@@ -6,7 +6,7 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 const Footer = () => {
     return (
         <>
-            <Container className="container mt-auto fixed-bottom">
+            <Container className="container mt-auto">
                 <Breadcrumb>
                     <Breadcrumb.Item>Home</Breadcrumb.Item>
                 </Breadcrumb>
