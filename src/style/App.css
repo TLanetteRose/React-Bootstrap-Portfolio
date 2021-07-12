@@ -92,7 +92,7 @@ h3 {
 
 .jumbotron-text {
   font-size: 1.6rem;
-  color: #331b3f !important;
+  color: #acc7b4 !important;
 }
 
 .btn-light {
@@ -105,6 +105,10 @@ h3 {
 .profile-pic {
   width: 40%;
   height: auto;
+}
+
+.profile-name {
+  color: #331b3f !important;
 }
 
 /*.header-pic {

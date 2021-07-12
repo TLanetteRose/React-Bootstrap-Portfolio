@@ -12,19 +12,20 @@ const CustomNavbar = () => {
     return  (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Container>
+                <Container className="justify-content-between">
                     <Navbar.Brand href="#home">
                         <Image src={logoPic} className="logo" fluid />
                     </Navbar.Brand>
+                    <h3 className="profile-name px-4 mx-4 my-auto">Trista L. Pollard</h3>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#about" className="nav-link">About
+                        <Nav className="justify-content-around ml-3 p-2 w-100">
+                            <Nav.Link href="#about" className="nav-link px-2">About
                             </Nav.Link>
-                            <Nav.Link href="#projects" className="nav-link">Projects</Nav.Link>
-                            <Nav.Link  href="#skills" className="nav-link">Skills
+                            <Nav.Link href="#projects" className="nav-link px-2">Projects</Nav.Link>
+                            <Nav.Link  href="#skills" className="nav-link px-2">Skills
                             </Nav.Link>
-                            <Nav.Link href="#contacts" className="nav-link">Contacts
+                            <Nav.Link href="#contacts" className="nav-link px-2">Contacts
                             </Nav.Link>.
                         </Nav>
                     </Navbar.Collapse>
