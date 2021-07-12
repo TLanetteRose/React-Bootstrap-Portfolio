@@ -34,6 +34,8 @@ h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .breadcrumb__container {
@@ -122,13 +124,23 @@ h3 {
 /* Projects */
 .project__container {
   margin-top: 5rem !important;
-  height: 20rem;
+  height: 50rem;
 }
 
 .project-pic {
   width: 60%;
   height: auto;
 }
+
+/* Skills */
+
+
+/* Contact */
+
+
+/* Footer */ 
+
+
 
 
 
