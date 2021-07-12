@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Sketch and SCSS",
     description:
       "I completed a CodePen Challenge to design a cafe menu. I designed the website using Sketch. I used color samples from the main picture in my page styling. ",
-    image: "../src/images/CascadeCafeTLPChallenge.png",
+    image: "./images/CascadeCafeTLPChallenge.png",
     link: "https://codepen.io/TLanette/pen/JjNjzzW",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React Hooks",
     description:
       "I completed this project for FreeCodeCamp. My Pomodoro Clock was designed based on specific guidelines (user stories). It was my second project working with ReactJS.",
-    image: "../src/images/PomodoroClockFreeCodeCamp.png",
+    image: "./PomodoroClockFreeCodeCamp.png",
     link: "https://tlanetterose.github.io/PomodoroClock-TLP/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "Bootstrap and SCSS",
     description:
       "This is a challenge from Frontend Mentor. It is a one-page reponsive company website.",
-    image: "../src/images/InsureWebsiteFrontendMentor.png",
+    image: "./InsureWebsiteFrontendMentor.png",
     link: "https://insure-landing-page-tlp.vercel.app/",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "JavaScript",
     description:
       "This is a challenge from Frontend Mentor. I had to build a pricing component with a toggle that switched between annual and monthly prices.",
-    image: "../src/images/PricingComponentFrontendMentor.png",
+    image: "./PricingComponentFrontendMentor.png",
     link: "https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/",
   },
 ];

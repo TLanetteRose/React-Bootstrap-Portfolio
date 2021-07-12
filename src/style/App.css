@@ -76,9 +76,6 @@ h3 {
   margin: 6rem 2rem;
 }
 
-.jumbotron-card {
- 
-}
 
 .jumbotron-heading {
   color: #acc7b4 !important;
@@ -118,11 +115,20 @@ h3 {
 
 .header-pic {
   width: 90%;
+  margin: auto;
   
 }
 
 /* Projects */
+.project__container {
+  margin-top: 5rem !important;
+  height: 20rem;
+}
 
+.project-pic {
+  width: 60%;
+  height: auto;
+}
 
 
 

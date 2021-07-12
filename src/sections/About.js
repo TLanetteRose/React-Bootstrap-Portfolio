@@ -15,7 +15,7 @@ const About = () => {
             <Container fluid className="container">
                 <Jumbotron fluid className="mt-5">
                     <Row>
-                        <Col className="about-info col-12 col-md-6 p-5">
+                        <Col className="about-info col-12 col-lg-6 p-5">
                             <h1 className="jumbotron-heading">Hi, I'm Trista!</h1>
                             <h3 className="jumbotron-subtitle">I love to build amazing websites! </h3>
                             <p className="jumbotron-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero tellus, lacinia et ornare sit amet, tincidunt vitae arcu. Vivamus fermentum consequat mi consectetur dapibus. Donec nec ante fermentum, congue mauris porta, molestie lectus. Quisque nec interdum ex. Integer facilisis elit ante, ut consequat mi elementum non. Duis mattis malesuada lorem, vitae auctor lectus hendrerit sed. </p>
@@ -31,7 +31,7 @@ const About = () => {
                         </Col>
                    
                         <Col>
-                            <Image src={jumbotronPic} fluid className="header-pic mx-auto my-auto p-5 d-block col-12 col-md-6" />
+                            <Image src={jumbotronPic} fluid className="header-pic m-auto py-5 d-block col-12 col-lg-6" />
                         </Col>
                      </Row>
                 </Jumbotron>
