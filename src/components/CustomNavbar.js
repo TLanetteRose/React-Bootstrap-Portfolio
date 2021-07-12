@@ -11,7 +11,9 @@ import logoPic from '../images/RebelCowSm.jpg';
 const CustomNavbar = () => {
     return  (
         <>
+
             <Navbar collapseOnSelect expand="lg" bg="light" variant="dark">
+
                 <Container className="justify-content-between">
                     <Navbar.Brand href="#home">
                         <Image src={logoPic} className="logo" fluid />
@@ -26,7 +28,7 @@ const CustomNavbar = () => {
                             <Nav.Link href="#skills" className="nav-link px-2">Skills
                             </Nav.Link>
                             <Nav.Link href="#contacts" className="nav-link px-2">Contacts
-                            </Nav.Link>.
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
