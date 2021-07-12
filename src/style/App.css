@@ -16,7 +16,7 @@ html {
 
 body {
   width: 100vw;
-  height: 100%;
+  min-height: 100%;
   font-family: 'Roboto',
   sans-serif;
   background-color: #331b3f !important;
@@ -32,7 +32,7 @@ h3 {
 
 .container {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
   justify-content: center;
 }
 
@@ -66,7 +66,7 @@ h3 {
 /* Jumbotron */
 
 .jumbotron__container {
-  margin: 5rem 2rem;
+  /*margin: 6rem 2rem;*/
 }
 
 .jumbotron-row {
@@ -95,6 +95,16 @@ h3 {
   color: #acc7b4 !important;
 }
 
+.jumbotron-button {
+  height: 4rem;
+  width: 15rem;
+}
+
+.jumbotron-button a {
+  font-size: 1.4rem;
+  color: #331b3f !important;
+}
+
 .btn-light {
   background-color: #acc7b4 !important;
   border-radius: .25rem;
@@ -111,14 +121,37 @@ h3 {
   color: #331b3f !important;
 }
 
-/*.header-pic {
-  width: 80%;
-  
-}*/
+.header-pic {
+  width: 90%;
+  margin: auto;
+
+}
+
+/* Projects */
+.project__container {
+  /*margin-top: 5rem !important;*/
+  height: 60rem;
+  padding-top: 4rem;
+
+}
+
+.project-pic {
+  width: 60%;
+  height: auto;
+}
+
+.code-icon {
+  width: 5%;
+}
 
 
+/* Skills */
 
 
+/* Contact */
+
+
+/* Footer */
 
 
 
