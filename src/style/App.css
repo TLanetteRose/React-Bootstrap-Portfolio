@@ -143,9 +143,12 @@ h3 {
 
 .code-icon {
   width: 5%;
+  
 }
 /* Skills */
-
+.skills__container {
+  height: 20rem;
+}
 
 /* Contact */
 

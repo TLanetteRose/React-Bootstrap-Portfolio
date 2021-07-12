@@ -21,12 +21,12 @@ const Projects = () => {
             <Container id="projects" fluid className="project__container container">
                 <Row>
                     <Col className="col-12 m-auto">
-                        <DesktopComputerIcon className="mx-auto d-inline-block project__section code-icon" />
+                        <DesktopComputerIcon className="code-icon" />
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <h1 className="mx-auto d-inline-block project__section-title">My Projects</h1>
+                        <h1 className="mx-auto d-inline-block project__section-title w-100 text-center">My Projects</h1>
                         <p className="project-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
                         facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore.</p>
                     </Col>
