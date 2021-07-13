@@ -34,7 +34,7 @@ const About = () => {
                             </Col>
                    
                             <Col>
-                                <Image src={jumbotronPic} fluid className="header-pic m-auto py-5 d-block col-12 col-lg-6" />
+                                <Image src={jumbotronPic} fluid className="header-pic col-12 col-lg-6" />
                             </Col>
                         </Row>
                     </Jumbotron>

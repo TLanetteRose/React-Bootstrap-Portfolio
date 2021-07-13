@@ -5,7 +5,7 @@
   margin: 0;
   padding:0;
   box-sizing: border-box;
-  /*outline: 1px solid black;*/
+  outline: 1px solid black;
 }
 
 html {
@@ -162,8 +162,8 @@ h3 {
 }
 
 .header-pic {
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin: 4rem auto;
 
 }
 
@@ -173,8 +173,8 @@ h3 {
 }
 
 .project__container {
-  margin: auto;
-  padding: 2rem;
+  margin: 2rem auto;
+  padding: 1rem;
   height: 100%;
   padding-top: 4rem;
 
@@ -189,7 +189,8 @@ h3 {
 }
 .section__gallery-card {
   height: auto;
-  
+  max-width: 30rem;
+
   /*padding: 2rem;*/
   border: 2px solid #331b3f !important;
 }
@@ -199,7 +200,12 @@ h3 {
 }
 
 /* Skills */
-
+.skills__container {
+  margin: 2rem auto;
+  padding: 1rem;
+  height: 100%;
+  padding-top: 4rem;
+}
 
 /* Contact */
 
