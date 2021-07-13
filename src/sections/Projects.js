@@ -20,7 +20,7 @@ const Projects = () => {
         <>
             <section className="project__section mx-auto">
                 <Container fluid className="project__container">
-                    <div  className="d-flex flex-column mb-2 section__header">
+                    <div  className="d-flex flex-column justify-content-evenly mx-auto mb-2 section__header">
                         <DesktopComputerIcon className="mx-auto inline-block mb-4 section__header-icon" />
                         <h1 className="heading-dark text-center mb-4">
                             My Webpages and Projects
@@ -48,7 +48,7 @@ const Projects = () => {
                                 <Image src={pomodoroPic} alt="Cafe Menu wepage" className="img-fluid p-4"/>
                             </div>
                             <div>
-                                <h2>Pomodoro Clock</h2>
+                                <h2>Pomodoro Clock App</h2>
                                 <h4>React Hooks</h4>
                                 <p>I completed this project for FreeCodeCamp. My Pomodoro Clock was designed based on specific guidelines (user stories). It was my second project working with ReactJS.</p>
                                 <Button className="btn-light">
@@ -74,11 +74,11 @@ const Projects = () => {
                                 <Image src={pricingPic} alt="Pricing Component wepage" className="img-fluid p-4"/>
                             </div>
                             <div>
-                                <h2>Pricing Componentu</h2>
+                                <h2>Pricing Component Website</h2>
                                 <h4>JavaScript</h4>
                                 <p>This is a challenge from Frontend Mentor. I had to build a pricing component with a toggle that switched between annual and monthly prices</p>
                                 <Button className="btn-light">
-                                    <a href="https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/" className="text-dark">Cascade Cafe Menu Website</a>
+                                    <a href="https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/" className="text-dark">Price Component Website</a>
                                 </Button>
                             </div>
                         </Col>

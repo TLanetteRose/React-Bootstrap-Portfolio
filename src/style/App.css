@@ -125,7 +125,7 @@ h3 {
 /* Jumbotron */
 
 .jumbotron__container {
-  /*margin: 6rem 2rem;*/
+  
 }
 
 .jumbotron-row {
@@ -178,6 +178,10 @@ h3 {
   height: 100%;
   padding-top: 4rem;
 
+}
+
+.section__header {
+  max-width: 50rem;
 }
 
 .section__header-icon {
