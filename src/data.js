@@ -19,7 +19,7 @@ export const projects = [
     title: "Insure Website",
     subtitle: "Bootstrap and SCSS",
     description:
-      "This is a challenge from Frontend Mentor. It is a one-page reponsive company website.",
+      "This is a challenge from Frontend Mentor. It is a one-page reponsive company landing page using Bootstrap and SCSS.",
     image: "./InsureWebsiteFrontendMentor.png",
     link: "https://insure-landing-page-tlp.vercel.app/",
   },

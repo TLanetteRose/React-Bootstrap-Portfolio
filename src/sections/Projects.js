@@ -18,42 +18,70 @@ import '../style/App.css';
 const Projects = () => {
     return (
         <>
-            <section className="bg-light">
-                <Container id="projects" fluid className="project__container container">
-                    <Row className="section__header">
-                        <Col className="">
-                            <DesktopComputerIcon className="section__header-icon" />
-                            <h1 className="mx-auto d-inline-block section__header-title w-100 text-center">My Websites &amp; Projects </h1>
-                            <p className="section__header-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore.</p>
-                        </Col>
-                    </Row>
-                    <Row className="section__gallery row-cols-1 row-cols-sm-2">
-                        <Col className="section__gallery-card">
+            <section className="project__section">
+                <Container fluid className="project__container">
+                    <div  className="d-flex flex-column mb-2 section__header">
+                        <DesktopComputerIcon className="mx-auto inline-block mb-4 section__header-icon" />
+                        <h1 className="heading-dark text-center mb-4">
+                            My Webpages and Projects
+                        </h1>
+                        <p className="text-dark fs-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore.</p>
+                    </div>
+                    <Row className="row-cols-1 row-cols-md-2 row-cols-lg-4 section__gallery g-1">
+                        <Col className="bg-light section__gallery-card mb-4">
                             <div>
-                                <Image src={cascadePic} fluid />
+                                <Image src={cascadePic} alt="Cafe Menu wepage" className="img-fluid p-4"/>
                             </div>
                             <div>
                                 <h2>Cascade Cafe Menu</h2>
                                 <h4>Sketch and SCSS</h4>
                                 <p>I designed the website using Sketch. I used color samples from the main picture in my page styling.</p>
-                                <Button className="btn"><a href="https://codepen.io/TLanette/pen/JjNjzzW">Cascade Cafe Menu</a></Button>
+                                <Button className="btn-light">
+                                    <a href="https://codepen.io/TLanette/pen/JjNjzzW" className="text-dark">Cascade Cafe Menu Website</a>
+                                </Button>
                             </div>
                         </Col>
-                        <Col className="section__gallery-card">
+
+                        <Col className="bg-light section__gallery-card mb-4">
                             <div>
-                                <Image src={pomodoroPic} fluid />
+                                <Image src={cascadePic} alt="Cafe Menu wepage" className="img-fluid p-4"/>
                             </div>
                             <div>
-                                <h2>Pomodoro Clock</h2>
-                                <h4>React Hooks</h4>
-                                <p>My Pomodoro Clock was designed based on specific guidelines (user stories). It was my second project working with ReactJS.</p>
-                                <Button className="btn"><a href="https://tlanetterose.github.io/PomodoroClock-TLP/">Pomodoro Clock</a></Button>
+                                <h2>Cascade Cafe Menu</h2>
+                                <h4>Sketch and SCSS</h4>
+                                <p>I designed the website using Sketch. I used color samples from the main picture in my page styling.</p>
+                                <Button className="btn-light">
+                                    <a href="https://codepen.io/TLanette/pen/JjNjzzW" className="text-dark">Cascade Cafe Menu Website</a>
+                                </Button>
                             </div>
                         </Col>
-                        <Col className="section__gallery-card"><Image src={insurePic} fluid /></Col>
-                        <Col className="section__gallery-card"><Image src={pricingPic} fluid /></Col>
-                    </Row>    
-            
+                        <Col className="bg-light section__gallery-card mb-4">
+                            <div>
+                                <Image src={cascadePic} alt="Cafe Menu wepage" className="img-fluid p-4"/>
+                            </div>
+                            <div>
+                                <h2>Cascade Cafe Menu</h2>
+                                <h4>Sketch and SCSS</h4>
+                                <p>I designed the website using Sketch. I used color samples from the main picture in my page styling.</p>
+                                <Button className="btn-light">
+                                    <a href="https://codepen.io/TLanette/pen/JjNjzzW" className="text-dark">Cascade Cafe Menu Website</a>
+                                </Button>
+                            </div>
+                        </Col>
+                        <Col className="bg-light section__gallery-card mb4">
+                            <div>
+                                <Image src={cascadePic} alt="Cafe Menu wepage" className="img-fluid p-4"/>
+                            </div>
+                            <div>
+                                <h2>Cascade Cafe Menu</h2>
+                                <h4>Sketch and SCSS</h4>
+                                <p>I designed the website using Sketch. I used color samples from the main picture in my page styling.</p>
+                                <Button className="btn-light">
+                                    <a href="https://codepen.io/TLanette/pen/JjNjzzW" className="text-dark">Cascade Cafe Menu Website</a>
+                                </Button>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
             </section>
         </>
