@@ -2,7 +2,7 @@ import React from 'react';
 //import Card from 'react-bootstrap/Card';
 //import CardGroup from 'react-bootstrap/CardGroup';
 import Container from 'react-bootstrap/Container';
-//import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { DesktopComputerIcon } from '@heroicons/react/solid';
@@ -21,57 +21,37 @@ const Projects = () => {
             <section className="bg-light">
                 <Container id="projects" fluid className="project__container container">
                     <Row className="section__header">
-                        <Col className="col-12 m-auto">
+                        <Col className="">
                             <DesktopComputerIcon className="section__header-icon" />
-                            <h1 className="mx-auto d-inline-block project__section-title w-100 text-center">My Websites &amp; Projects </h1>
-                            <p className="project__section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore.</p>
+                            <h1 className="mx-auto d-inline-block section__header-title w-100 text-center">My Websites &amp; Projects </h1>
+                            <p className="section__header-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore.</p>
                         </Col>
                     </Row>
-                    <Row className="section__gallery">
-                        <Col className="">
-                            <div className="text-center project-card">
-                                <Image variant='top' src={cascadePic} className="project-pic"/>
-                                <div>
-                                    <h2>Cascade Cafe Menu</h2>
-                                    <h3>Sketch and SCSS</h3>
-                                    <p className="text-dark">I completed a CodePen Challenge to design a cafe menu. I designed the website using Sketch. I used color samples from the main picture in my page styling.</p>
-                                    <a href="https://codepen.io/TLanette/pen/JjNjzzW" className="project-link">Cascade Cafe Menu</a>
-                                </div>
+                    <Row className="section__gallery row-cols-1 row-cols-sm-2">
+                        <Col className="section__gallery-card">
+                            <div>
+                                <Image src={cascadePic} fluid />
+                            </div>
+                            <div>
+                                <h2>Cascade Cafe Menu</h2>
+                                <h4>Sketch and SCSS</h4>
+                                <p>I designed the website using Sketch. I used color samples from the main picture in my page styling.</p>
+                                <Button className="btn"><a href="https://codepen.io/TLanette/pen/JjNjzzW">Cascade Cafe Menu</a></Button>
                             </div>
                         </Col>
-                        <Col className="">
-                            <div className="text-center project-card">
-                                <Image variant='top' src={pomodoroPic} className="project-pic" />
-                                <div>
-                                    <h2>Pomodoro Clock</h2>
-                                    <h3>React Hooks</h3>
-                                    <p className="text-dark">I completed this project for FreeCodeCamp. My Pomodoro Clock was designed based on specific guidelines (user stories). It was my second project working with ReactJS.</p>
-                                    <a href="https://tlanetterose.github.io/PomodoroClock-TLP/">Pomodoro Clock</a>
-                                </div>
+                        <Col className="section__gallery-card">
+                            <div>
+                                <Image src={pomodoroPic} fluid />
+                            </div>
+                            <div>
+                                <h2>Pomodoro Clock</h2>
+                                <h4>React Hooks</h4>
+                                <p>My Pomodoro Clock was designed based on specific guidelines (user stories). It was my second project working with ReactJS.</p>
+                                <Button className="btn"><a href="https://tlanetterose.github.io/PomodoroClock-TLP/">Pomodoro Clock</a></Button>
                             </div>
                         </Col>
-                        <Col className="">
-                            <div className="text-center project-card">
-                                <Image variant='top' src={insurePic} className="project-pic" />
-                                <div>
-                                    <h2>Insure Landing Page</h2>
-                                    <h3>Bootstrap and SCSS</h3>
-                                    <p className="text-dark">This is a challenge from Frontend Mentor. It is a one-page reponsive company website.</p>
-                                    <a href="https://insure-landing-page-tlp.vercel.app/">Insure Landing Page</a>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col className="">
-                            <div className="text-center project-card">
-                                <Image variant='top' src={pricingPic} className="project-pic"/>
-                                <div>
-                                    <h2>Pricing Component</h2>
-                                    <h3>JavaScript</h3>
-                                    <p className="text-dark">This is a challenge from Frontend Mentor. I had to build a pricing component with a toggle that switched between annual and monthly prices.</p>
-                                    <a href="https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/">Pricing Component</a>
-                                </div>
-                            </div>
-                        </Col>
+                        <Col className="section__gallery-card"><Image src={insurePic} fluid /></Col>
+                        <Col className="section__gallery-card"><Image src={pricingPic} fluid /></Col>
                     </Row>    
             
                 </Container>

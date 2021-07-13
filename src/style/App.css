@@ -175,12 +175,13 @@ h3 {
 
 }
 
-.project-card {
-  
+.section__gallery-card {
+  height: auto;
+  padding: 2rem;
 }
 
 .project-pic {
-  width: 100%;
+  
 }
 
 /* Skills */
