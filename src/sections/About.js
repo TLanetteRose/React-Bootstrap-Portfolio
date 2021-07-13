@@ -14,30 +14,32 @@ import '../style/App.css';
 const About = () => {
     return (
         <>
-            <Container fluid className="container">
-                <Jumbotron fluid className="jumbotron__container">
-                    <Row>
-                        <Col className="about-info col-12 col-lg-6 p-5">
-                            <h1 className="jumbotron-heading">Hi, I'm Trista!</h1>
-                            <h3 className="jumbotron-subtitle">I love to build amazing websites! </h3>
-                            <p className="jumbotron-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero tellus, lacinia et ornare sit amet, tincidunt vitae arcu. Vivamus fermentum consequat mi consectetur dapibus. Donec nec ante fermentum, congue mauris porta, molestie lectus. Quisque nec interdum ex. Integer facilisis elit ante, ut consequat mi elementum non. Duis mattis malesuada lorem, vitae auctor lectus hendrerit sed. </p>
-                            <Row>
-                                <Col m-auto justify-content-center>
-                                <Image src={profilePic} m-auto className=" profile-pic" />
-                                </Col>
-                                <Col className="d-grid gap-2 align-items-center justify-content-center">
-                                <Button variant="light" size="lg" className="jumbotron-button"><a href="#contact">Work with Me</a></Button>
-                                <Button variant="light" size="lg" className="jumbotron-button"><a href="#projects">See My Past Work</a></Button>
-                                </Col>
-                            </Row>
-                        </Col>
+            <div>
+                <Container fluid className="container">
+                    <Jumbotron fluid className="jumbotron__container">
+                        <Row>
+                            <Col className="about-info col-12 col-lg-6 p-5">
+                                <h1 className="jumbotron-heading heading-dark">Hi, I'm Trista!</h1>
+                                <h3 className="jumbotron-subtitle heading-dark">I love to build amazing websites! </h3>
+                                <p className="jumbotron-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero tellus, lacinia et ornare sit amet, tincidunt vitae arcu. Vivamus fermentum consequat mi consectetur dapibus. Donec nec ante fermentum, congue mauris porta, molestie lectus. Quisque nec interdum ex. Integer facilisis elit ante, ut consequat mi elementum non. Duis mattis malesuada lorem, vitae auctor lectus hendrerit sed. </p>
+                                <Row>
+                                    <Col m-auto justify-content-center>
+                                    <Image src={profilePic} m-auto className=" profile-pic" />
+                                    </Col>
+                                    <Col className="d-grid gap-2 align-items-center justify-content-center">
+                                    <Button variant="light" size="lg" className="jumbotron-button btn-dark"><a href="#contact" className="text-light">Work with Me</a></Button>
+                                    <Button variant="light" size="lg" className="jumbotron-button btn-dark"><a href="#projects" className="text-light">See My Past Work</a></Button>
+                                    </Col>
+                                </Row>
+                            </Col>
                    
-                        <Col>
-                            <Image src={jumbotronPic} fluid className="header-pic m-auto py-5 d-block col-12 col-lg-6" />
-                        </Col>
-                     </Row>
-                </Jumbotron>
-            </Container>
+                            <Col>
+                                <Image src={jumbotronPic} fluid className="header-pic m-auto py-5 d-block col-12 col-lg-6" />
+                            </Col>
+                        </Row>
+                    </Jumbotron>
+                </Container>
+            </div>
         </>
     );
 };

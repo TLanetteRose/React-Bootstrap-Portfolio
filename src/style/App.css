@@ -35,8 +35,16 @@ h3 {
   color: #331b3f !important;
 }
 
+.text-light {
+  color: #acc7b4 !important;
+}
+
 .heading-dark {
   color: #331b3f !important;
+}
+
+.heading-light {
+  color: #acc7b4 !important;
 }
 
 .bg-light {
@@ -94,8 +102,8 @@ h3 {
   width: 5rem;
   height: 5rem;
 }
-.profile-name {
-  
+.navbar-toggler {
+  background-color: #acc7b4 !important;
 }
 
 

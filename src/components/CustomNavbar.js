@@ -24,10 +24,10 @@ const CustomNavbar = () => {
                         <Nav className="justify-content-around ml-3 p-2 w-100">
                             <Nav.Link href="#about" className="nav-link text-light px-2">About
                             </Nav.Link>
-                            <Nav.Link href="#projects" className="nav-link px-2">Projects</Nav.Link>
-                            <Nav.Link href="#skills" className="nav-link px-2">Skills
+                            <Nav.Link href="#projects" className="nav-link px-2 text-light">Projects</Nav.Link>
+                            <Nav.Link href="#skills" className="nav-link px-2 text-light">Skills
                             </Nav.Link>
-                            <Nav.Link href="#contacts" className="nav-link px-2">Contacts
+                            <Nav.Link href="#contacts" className="nav-link px-2 text-light">Contacts
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
