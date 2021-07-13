@@ -8,10 +8,10 @@ import { ClipboardListIcon } from '@heroicons/react/solid';
 const Skills = () => {
     return (
         <>
-            <Container className="skills__container">
+            <Container className="section__container">
                 <Row>
                     <Col>
-                        <ClipboardListIcon className="code-icon"/>
+                        <ClipboardListIcon className="code-icon section__header-icon"/>
                     </Col>
                 </Row>
                 <Row>

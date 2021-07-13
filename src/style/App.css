@@ -77,7 +77,7 @@ h3 {
   background-color: #331b3f !important;
 }
 
-/* Main Styling */
+/* General-Main Styling */
 
 .container {
   margin-top: 1rem;
@@ -96,12 +96,20 @@ h3 {
   font-size: 1.8rem;
 }
 
-/* Custom Navbar */
 
 .logo {
   width: 5rem;
   height: 5rem;
 }
+
+.section__header-icon {
+  width: 5%;
+
+}
+
+/* Custom Navbar */
+
+
 .navbar-toggler {
   background-color: #acc7b4 !important;
 }
@@ -111,11 +119,6 @@ h3 {
   font-size: 1.8rem;
   font-weight: 700;
 }
-
-.card .card-footer {
-  align-items: flex-end; 
-}
-
 
 
 
@@ -128,8 +131,6 @@ h3 {
 .jumbotron-row {
   margin: 6rem 2rem;
 }
-
-
 
 
 .jumbotron-subtitle {
@@ -150,14 +151,11 @@ h3 {
 
 }
 
-
-
 .profile-pic {
   width: 60%;
   height: auto;
   
 }
-
 
 .profile-name {
   
@@ -178,21 +176,15 @@ h3 {
 }
 
 .project-card {
-  width: 18rem;
-  height: auto;
+  
 }
 
 .project-pic {
-  width: 90%;
+  width: 100%;
 }
-.code-icon {
-  width: 5%;
-  
-}
+
 /* Skills */
-.skills__container {
-  height: 20rem;
-}
+
 
 /* Contact */
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+//import Card from 'react-bootstrap/Card';
 //import CardGroup from 'react-bootstrap/CardGroup';
 import Container from 'react-bootstrap/Container';
 //import Button from 'react-bootstrap/Button';
@@ -50,25 +50,27 @@ const Projects = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col className="d-flex flex-column">
-                            <Card className="card text-center flex-fill">
-                                <Card.Img variant='top' src={insurePic} />
-                                <Card.Title>Insure Landing Page</Card.Title>
-                                <Card.Subtitle>Bootstrap and SCSS</Card.Subtitle>
-                                <Card.Text>This is a challenge from Frontend Mentor. It is a one-page reponsive company website.</Card.Text>
-                                <Card.Footer>
+                        <Col className="">
+                            <div className="text-center project-card">
+                                <Image variant='top' src={insurePic} className="project-pic" />
+                                <div>
+                                    <h2>Insure Landing Page</h2>
+                                    <h3>Bootstrap and SCSS</h3>
+                                    <p className="text-dark">This is a challenge from Frontend Mentor. It is a one-page reponsive company website.</p>
                                     <a href="https://insure-landing-page-tlp.vercel.app/">Insure Landing Page</a>
-                                </Card.Footer>
-                            </Card>
+                                </div>
+                            </div>
                         </Col>
-                        <Col className="d-flex flex-column">
-                            <Card className="card text-center flex-fill">
-                                <Card.Img variant='top' src={pricingPic} />
-                                <Card.Title>Pricing Component</Card.Title>
-                                <Card.Subtitle>JavaScript</Card.Subtitle>
-                                <Card.Text>This is a challenge from Frontend Mentor. I had to build a pricing component with a toggle that switched between annual and monthly prices.</Card.Text>
-                                <Card.Footer><a href="https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/">Pricing Component</a></Card.Footer>.
-                            </Card>
+                        <Col className="">
+                            <div className="text-center project-card">
+                                <Image variant='top' src={pricingPic} className="project-pic"/>
+                                <div>
+                                    <h2>Pricing Component</h2>
+                                    <h3>JavaScript</h3>
+                                    <p className="text-dark">This is a challenge from Frontend Mentor. I had to build a pricing component with a toggle that switched between annual and monthly prices.</p>
+                                    <a href="https://tlanetterose.github.io/Pricing-Component-w-Toggle-TLP/">Pricing Component</a>
+                                </div>
+                            </div>
                         </Col>
                     </Row>    
             
