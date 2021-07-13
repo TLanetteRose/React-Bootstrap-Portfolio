@@ -19,8 +19,8 @@ body {
   min-height: 100%;
   font-family: 'Roboto',
   sans-serif;
-  background-color: #331b3f !important;
-  color: #acc7b4 !important;
+  /*background-color: #331b3f !important;
+  color: #acc7b4 !important;*/
 }
 
 h1,
@@ -29,6 +29,47 @@ h3 {
   font-family: 'Rammetto One',
   cursive;
 }
+
+/* Theme */
+.text-dark {
+  color: #331b3f !important;
+}
+
+.heading-dark {
+  color: #331b3f !important;
+}
+
+.bg-light {
+  background-color: #acc7b4 !important;
+}
+
+.bg-dark {
+  background-color: #331b3f !important;
+  }
+
+.btn-light {
+  background-color: #acc7b4 !important;
+  border-radius: .25rem;
+  color: #331b3f !important;
+  font-weight: 700;
+}
+
+.btn-dark {
+  background-color: #331b3f !important;
+  border-radius: .25rem;
+  color: #acc7b4 !important;
+  font-weight: 700;
+}
+
+.link-light {
+  background-color: #acc7b4 !important;
+}
+
+.link-dark {
+  background-color: #331b3f !important;
+}
+
+/* Main Styling */
 
 .container {
   margin-top: 1rem;
@@ -45,7 +86,6 @@ h3 {
 
 .breadcrumb-item  a {
   font-size: 1.8rem;
-  color: #acc7b4 !important;
 }
 
 /* Custom Navbar */
@@ -55,14 +95,11 @@ h3 {
   height: 5rem;
 }
 .profile-name {
-  color: #331b3f !important;
-}
-.bg-light {
-  background-color: #acc7b4 !important;
+  
 }
 
+
 .nav-link {
-  color: #331b3f !important;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -71,11 +108,7 @@ h3 {
   align-items: flex-end; 
 }
 
-.card-title,
-.card-subtitle,
-.card-text {
-  color: #331b3f !important;
-}
+
 
 
 /* Jumbotron */
@@ -89,9 +122,7 @@ h3 {
 }
 
 
-.jumbotron-heading {
-  color: #acc7b4 !important;
-}
+
 
 .jumbotron-subtitle {
   font-size: 1.4rem;
@@ -99,7 +130,6 @@ h3 {
 
 .jumbotron-text {
   font-size: 1.6rem;
-  color: #acc7b4 !important;
 }
 
 .jumbotron-button {
@@ -109,16 +139,10 @@ h3 {
 
 .jumbotron-button a {
   font-size: 1.4rem;
-  color: #331b3f !important;
 
 }
 
-.btn-light {
-  background-color: #acc7b4 !important;
-  border-radius: .25rem;
-  color: #331b3f !important;
-  font-weight: 700;
-}
+
 
 .profile-pic {
   width: 60%;
@@ -128,7 +152,7 @@ h3 {
 
 
 .profile-name {
-  color: #331b3f !important;
+  
 }
 
 .header-pic {

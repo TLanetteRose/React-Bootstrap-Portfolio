@@ -6,11 +6,13 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 const Footer = () => {
     return (
         <>
-            <Container className="container mt-auto">
-                <Breadcrumb>
-                    <Breadcrumb.Item>Home</Breadcrumb.Item>
-                </Breadcrumb>
-            </Container>
+            <div className="footer bg-dark">
+                <Container className="container mt-auto">
+                    <Breadcrumb>
+                        <Breadcrumb.Item>Home</Breadcrumb.Item>
+                    </Breadcrumb>
+                </Container>
+            </div>
         </>
     )
 }
