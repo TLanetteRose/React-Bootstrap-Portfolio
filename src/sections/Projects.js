@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { DesktopComputerIcon } from '@heroicons/react/solid';
-//import Image from 'react-bootstrap/Image';
+import Image from 'react-bootstrap/Image';
 import cascadePic from '../images/CascadeCafeTLPChallenge.png';
 import pomodoroPic from '../images/PomodoroClockFreeCodeCamp.png';
 import insurePic from '../images/InsureWebsiteFrontendMentor.png';
@@ -18,38 +18,37 @@ import '../style/App.css';
 const Projects = () => {
     return (
         <>
-            <div>
+            <section className="bg-light">
                 <Container id="projects" fluid className="project__container container">
-                    <Row>
-                        <Col className="col-12 m-auto project__icon">
-                            <DesktopComputerIcon className="code-icon" />
+                    <Row className="section__header">
+                        <Col className="col-12 m-auto">
+                            <DesktopComputerIcon className="section__header-icon" />
+                            <h1 className="mx-auto d-inline-block project__section-title w-100 text-center">My Websites &amp; Projects </h1>
+                            <p className="project__section-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore.</p>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col className="project__header">
-                            <h1 className="mx-auto d-inline-block project__section-title w-100 text-center">My Projects</h1>
-                            <p className="project-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam fuga dolore.</p>
+                    <Row className="section__gallery">
+                        <Col className="">
+                            <div className="text-center project-card">
+                                <Image variant='top' src={cascadePic} className="project-pic"/>
+                                <div>
+                                    <h2>Cascade Cafe Menu</h2>
+                                    <h3>Sketch and SCSS</h3>
+                                    <p className="text-dark">I completed a CodePen Challenge to design a cafe menu. I designed the website using Sketch. I used color samples from the main picture in my page styling.</p>
+                                    <a href="https://codepen.io/TLanette/pen/JjNjzzW" className="project-link">Cascade Cafe Menu</a>
+                                </div>
+                            </div>
                         </Col>
-                    </Row>
-                    <Row xs={1} md={2} lg={4} className="g-4">
-                    
-                        <Col className="d-flex flex-column">
-                            <Card className="card text-center flex-fill">
-                                <Card.Img variant='top' src={cascadePic} />
-                                <Card.Title>Cascade Cafe Menu</Card.Title>
-                                <Card.Subtitle>Sketch and SCSS</Card.Subtitle>
-                                <Card.Text>I completed a CodePen Challenge to design a cafe menu. I designed the website using Sketch. I used color samples from the main picture in my page styling.</Card.Text>
-                                <Card.Footer><a href="https://codepen.io/TLanette/pen/JjNjzzW" className="project-link">Cascade Cafe Menu</a></Card.Footer>
-                            </Card>
-                        </Col>
-                        <Col className="d-flex flex-column">
-                            <Card className="card text-center flex-fill">
-                                <Card.Img variant='top' src={pomodoroPic} />
-                                <Card.Title>Pomodoro Clock</Card.Title>
-                                <Card.Subtitle>React Hooks</Card.Subtitle>
-                                <Card.Text>I completed this project for FreeCodeCamp. My Pomodoro Clock was designed based on specific guidelines (user stories). It was my second project working with ReactJS.</Card.Text>
-                                <Card.Footer><a href="https://tlanetterose.github.io/PomodoroClock-TLP/">Pomodoro Clock</a></Card.Footer>
-                            </Card>
+                        <Col className="">
+                            <div className="text-center project-card">
+                                <Image variant='top' src={pomodoroPic} className="project-pic" />
+                                <div>
+                                    <h2>Pomodoro Clock</h2>
+                                    <h3>React Hooks</h3>
+                                    <p className="text-dark">I completed this project for FreeCodeCamp. My Pomodoro Clock was designed based on specific guidelines (user stories). It was my second project working with ReactJS.</p>
+                                    <a href="https://tlanetterose.github.io/PomodoroClock-TLP/">Pomodoro Clock</a>
+                                </div>
+                            </div>
                         </Col>
                         <Col className="d-flex flex-column">
                             <Card className="card text-center flex-fill">
@@ -74,7 +73,7 @@ const Projects = () => {
                     </Row>    
             
                 </Container>
-            </div>
+            </section>
         </>
     )
 }

@@ -176,17 +176,14 @@ h3 {
   padding-top: 4rem;
 
 }
-.project__header {
-  height: 8rem;
-}
 
-.project-pic {
-  width: 60%;
+.project-card {
+  width: 18rem;
   height: auto;
 }
 
-.project-link {
-  
+.project-pic {
+  width: 90%;
 }
 .code-icon {
   width: 5%;
